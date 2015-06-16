@@ -1,0 +1,21 @@
+{
+  "name": "channel-growth-frontend",
+  "version": "1.0.0",
+  "description": "Channel Growth frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browserify ./src/scripts/main.js -t reactify -o ./public/js/main.js"
+  },
+  "author": "Eshlee Romero <esh@any.tv>",
+  "devDependencies": {
+    "browserify": "latest",
+    "react-tools": "latest",
+    "reactify": "latest"
+  },
+  "dependencies": {
+    "react": "latest",
+    "superagent": "latest"
+  },
+  "license": "ISC"
+}
