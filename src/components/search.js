@@ -21,13 +21,13 @@ module.exports = React.createClass({
 
     render: function () {
         return (
-            <div>
-            <h2>{this.state.h2}</h2>
-            <input
-                type = "text"
-                onChange={this.onChange}
-                className="search-box"
-            />
+            <div className = 'input-field'>
+                <input type = 'text'
+                    placeholder = 'Search channel'
+                    onChange = {this.onChange}
+                    className = 'search-box'
+                />
+                <label className='active'>Channel Growth Statistics</label>
             </div>
         );
     }
