@@ -14,5 +14,6 @@ ul li span {
 }
 
 .collapsible-header {
+    width:100%;
     height:90px;
 }
