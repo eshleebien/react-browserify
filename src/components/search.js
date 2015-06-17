@@ -1,5 +1,5 @@
 /** @jsx React.DOM */
-'use script'
+'use strict'
 
 var React = require('react/addons'),
     request = require('superagent');
@@ -13,8 +13,8 @@ module.exports = React.createClass({
         console.log(e.target.value);
 
         request
-            .get('localhost:3000/channels')
-            .end(function (result) {
+            .get('http://l1.freedom.tm:3000/channels')
+            .end(function (err, result) {
                 console.log(result);
             });
     },
