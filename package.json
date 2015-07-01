@@ -21,7 +21,9 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
+    "moment": "^2.10.3",
     "react": "latest",
+    "react-google-charts": "^0.1.4",
     "superagent": "latest"
   },
   "license": "ISC"

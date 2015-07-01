@@ -9,8 +9,10 @@ var gulp = require('gulp'),
     del = require('del'),
 
     paths = {
-        scripts: ['src/build/main.js', 'public/bower_components/jquery/dist/jquery.min.js', 'public/bower_components/materialize/dist/js/materialize.min.js'],
-        watch: ['src/components/*', 'src/scripts/*'],
+        scripts: ['src/build/main.js',
+            'public/bower_components/jquery/dist/jquery.min.js',
+            'public/bower_components/materialize/dist/js/materialize.min.js'],
+        watch: ['src/components/*', 'src/scripts/*', 'src/models/*'],
         browserify: ['src/scripts/*']
     };
 

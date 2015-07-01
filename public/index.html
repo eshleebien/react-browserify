@@ -14,10 +14,8 @@
 
         (function () {
             var interval = setInterval(function () {
-                console.log('asdfasdf');
                 if ($('.row')) {
                     clearInterval(interval);
-                    console.log($('.collapsible'));
                     $('.collapsible').collapsible({
                         accordion: false
                     });

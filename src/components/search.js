@@ -13,7 +13,7 @@ module.exports = React.createClass({
         console.log(e.target.value);
 
         request
-            .get('http://l1.freedom.tm:3000/channels')
+            .get('http://l1.freedom.tm:3000/channels?q=' + e.target.value)
             .end(function (err, result) {
                 console.log(result);
             });
